@@ -1,0 +1,209 @@
+
+
+@media only screen and(max-width:1200px)
+{
+}
+
+@media only screen and(max-width:1023px)
+{
+
+}
+
+@media only screen and(max-width:767px)
+{
+
+}
+/* small phone from 0 to 480px */
+@media only screen and (max-width: 480px) and (min-width: 0px) {
+.row
+{
+    width: 480px;
+}
+   nav
+   {
+       height: 15%;
+   }
+   .logo
+   {
+       width: 6%;
+       margin-top: 2%;
+   }
+   .slider-title
+   {
+       width: 85%;
+   }
+   .slider-text
+   {
+    top: 30%;
+    left: 10%
+   }
+  
+.slider-text h1 {
+       font-size: 35px;
+   }
+   header
+   {
+    background-size: 100% auto;
+    height: 95vh;
+   }
+   .slider-desc p
+   {
+    font-size: 18px;
+    padding-left: 2%;
+   }
+   .slider-desc
+{
+    margin-bottom: 5%;
+}
+.slider-btn a
+{
+    padding: 8px;
+}
+.main-navbar
+{
+    display: none;
+    font-size: 10px;
+}
+.main-navbar li
+{
+    padding: 5px 5px 2px 0px;
+    margin-left: 0;
+}
+.apply-btn
+{
+    width: 100%;
+    height: 20%;
+}
+.code-fellow-content
+{
+    padding-right: 22%;
+}
+.achivment-links p
+{
+    padding-left: 20%;
+    margin-bottom: 15px;
+}
+.achivement-item p
+{
+    text-align: center;
+}
+.achivments
+{
+    padding-left: 0%;
+}
+.achivments .span-1-of-4
+{
+    width: 75%;
+}
+.web-application-steps
+{
+    position: relative;
+    right: 30%;
+}
+.web-application-photo img
+{
+    width: 55%;
+    margin-left: 0%;
+    padding-left: 15%;
+}
+.col-control .span-1-of-2
+{
+    width:50% !important;
+}
+.span-1-of-2
+{
+    width:50% !important;
+}
+.number
+{
+    padding: 5px;
+    font-size: 15px;
+    margin-right: 2%;
+}
+.web-application-steps p
+{
+    font-size: 6px;
+}
+.education
+{
+    background-size: 100% auto;
+    height: 100vh;
+}
+.eduction-content p {
+    font-size: 15px;
+}
+.education-des
+{
+padding-left: 2%;
+}
+.education-btns .span-1-of-3
+{
+    width: 25%;
+}
+.education-btns
+{
+    margin-bottom: 20%;
+}
+.instrctor-img img
+{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0;
+}
+.instrctor-des p
+{
+    font-size: 10px;
+    margin-bottom: 1%;
+}
+.instrctor-btn a
+{
+    padding: 5px;
+}
+.TAS
+{
+    height: 265vh;
+}
+.TAS-info {
+    padding-right: 5%;
+}
+blockquote {
+    padding: 2% 8%;
+    font-style: italic;
+    font-size: 15px;
+}
+.code-fellow-sign-up-title
+{
+    padding-left: 0%;
+}
+.courses
+{
+    padding-left: 22%;
+}
+
+.course-box {
+    width: 70%;
+    margin-bottom: 5%;
+}
+.contact-form
+{
+    padding-left: 0%;
+}
+.contact-form input[type=text], input[type=email], select, textarea
+{
+    width: 60%;
+}
+.social-media-links ul, .learn-more-links ul {
+    text-align: center;
+    padding-left: 0%;
+    margin-bottom: 7%;
+}
+.tour p
+{
+text-align: center;
+}
+.social-media ul {
+    list-style: none;
+    width: 5%;
+    margin: 0 auto;
+}
+}

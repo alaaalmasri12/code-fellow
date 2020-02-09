@@ -19,6 +19,14 @@
     width: 50%;
     background-color: #8d1406;
 }
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+}
+
 
 .code-fellows-web-application
 {
@@ -236,6 +244,12 @@ background-image: linear-gradient();
 {
     font-size: 30px;
     width: 80%;
+}
+.education-title h1
+{
+    color: #fff;
+    padding-top: 3%;
+    text-align: center;
 }
 .education-des 
 {
