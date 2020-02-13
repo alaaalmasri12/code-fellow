@@ -1,0 +1,175 @@
+/*
+CSS box-sizing property makes sure that padding and borders do not increase the width and height of elements
+
+
+
+
+*/
+
+*
+{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body
+{
+    padding: 2%;
+    font-family: "Lato",sans-serif;
+    font-weight: 300px;
+    font-size: 16px;
+    color: #777777;
+}
+header
+{
+    height: 95vh;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+
+    background-image:linear-gradient( to right bottom, rgba(49, 11, 7, 0.801),rgba(209, 31, 12, 0.801)), url("../images/hero2.png");
+    /*
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:top;
+    position: relative;
+}
+.logo-box
+{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.logo
+{
+    animation: moveleft 2s ease-in;
+    width: 20%;
+}
+.logo:hover
+{
+    
+}
+.main-heading
+{
+    position: absolute;
+    left:50%;
+    top: 40%;
+    transform:translate(-50%,-50%) ;
+}
+.primary-heading
+{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.primary-main-heading 
+{
+display: block;
+font-size: 40px;
+font-weight: 200;
+letter-spacing: 35px;
+backface-visibility: hidden;
+
+/*
+animation-delay: 15s;
+*/
+animation: moveleft 2s ease-in;
+
+/*
+animation-iteration-count: 3;
+*/
+animation-timing-function: ease-in;
+
+}
+.sub-main-heading
+{
+    padding: 5%;
+display: block;
+font-size: 20px;
+font-weight: 300;
+letter-spacing: 15px;
+animation-delay: 3s;
+animation: moveright  3S;
+/*
+animation-delay: 15s;
+*/
+}
+.discover-more
+{
+    transform: translate(30%, 10px);
+}
+.discover-more a:link,
+.discover-more a:visited
+{
+    display: inline-block;
+text-decoration: none;
+text-transform: uppercase;
+transition: all .2s ease;
+}
+.white-btn
+{
+    font-size: 15px;
+    background-color: #ffffff;
+    color: #777777;
+    padding: 10px 40px ;/* 10px from top and bottom and 40px from left and right*/
+    text-align: center;
+    border-radius: 100px;
+}
+.btn:hover
+{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 5px rgba(0,0,0,0.2);
+
+}
+.btn:active:hover
+{
+    transform: translateY(-1px);
+        box-shadow: 0 10px 5px rgba(0,0,0,0.2);
+
+    
+}
+
+
+
+
+
+@keyframes moveleft
+{
+    0%
+    {
+opacity: 0;
+transform:translateX(-100px);
+    }
+    80%
+    {
+        transform:translate(0px);
+
+    }
+    100%
+    {
+opacity: 1;
+transform: translate(0);
+
+    }
+}
+@keyframes moveright
+{
+    0%
+    {
+opacity: 0;
+transform:translateX(100px);
+    }
+    80%
+    {
+        transform: translateX(0);
+
+    }
+    100%
+    {
+opacity: 1;
+transform: translate(0);
+
+    }
+}

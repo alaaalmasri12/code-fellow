@@ -14,7 +14,11 @@
 
 }
 /* small phone from 0 to 480px */
-@media only screen and (max-width: 480px) and (min-width: 0px) {
+@media only screen and (max-width: 480px) and (min-width: 350px) {
+    body
+    {
+        width: 100%;
+    }
 .row
 {
     width: 480px;

@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
     <link rel="stylesheet" href="css/grid.css.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    
+
 </head>
 <body>
   <header>
@@ -21,10 +23,18 @@
               <h2>Code Fellows</h2>
             </div>
             <ul class="main-navbar">
-                <li><a href="#">Prospective Students<ion-icon name="caret-down-outline"></ion-icon></a></li>
+                <li><a href="#">Prospective Students<button class="dropdown-btn"><ion-icon name="caret-down-outline"></ion-icon></button></a>
+                <ul class="inner-navbar"> 
+                    <li><a href="#">Employment Data</a></li>
+                    <li><a href="#">How to Apply</a></li>
+                    <li><a href="#">financing & scolierships</a></li>
+                    <li><a href="#">Employment Data</a></li>
+
+                </ul>
+                </li>
                 <li><a href="#">Curriculum<ion-icon name="caret-down-outline"></ion-icon></a></li>
                 <li><a href="#">Partnerships<ion-icon name="caret-down-outline"></ion-icon></a></li>
-                <li><a href="#">Get Tutored</a></li>
+                <li><a href="testmonial.html" target="_blank">Testmonials</a></li>
                 <li><a href="#">Events</a></li>
                 <li><a href="#">Alaa Blog</a></li>
                 <li>
@@ -156,15 +166,18 @@
 </div>    
 <section class="instructor">
     <div class="instructor-bio">
-        <h2> Meet Our instructor At 201 Course</h2>
+        <h2> Meet Our instructors</h2>
         <div class="instrctor-item">
                     <div class="instrctor-img">
-                    <img src="https://ca.slack-edge.com/TNGRRLUMA-US0JMEVKM-f03fded77255-512" alt="reham habbas">
+                    <img class="main-photo" src="https://ca.slack-edge.com/TNGRRLUMA-US0JMEVKM-f03fded77255-512" alt="reham habbas">
                     </div>
                  
-                
+                <div class="btn-instructor">
+                    <button class="btn-course102" id="btn-course102">Course 102 instructor</button>
+                    <button class="btn-course201" id="btn-course201">Course 201 instructor</button>
+                </div>
                     <div class="instrctor-des">
-                        <p>Reham Habbas is an instrctor  at luminus technical university college one of her  many great things about her
+                        <p class="description">Reham Habbas is an instrctor  at luminus technical university college one of her  many great things about her
                         a great sense of humor, postive vibes energtic and being helpful human being   </p>
 </div>
 <div class="instrctor-btn">
@@ -432,5 +445,6 @@ How did you find Us?
       </div>
   </footer>
   <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+  <script src="js/codefellow.js"></script>
 </body>
 </html>
