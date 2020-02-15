@@ -197,7 +197,6 @@ ion-icon {
 {
     color: gray;
 }
-
 /*ul li:hover ul li
 {
 display: block;
@@ -353,7 +352,7 @@ animation:  drop 1s ease-in;
 .instrctor-des
 {
     width: 80;
-    padding: 15px;
+    padding: 2px;
     padding-left: 10%;
 }
 .instrctor-des p
@@ -382,7 +381,8 @@ animation:  drop 1s ease-in;
 .TAS
 {
     text-align: center;
-    margin-top: 40px;
+    
+    margin-top: 8%;
     height: 50vh;
 }
 .TA-title
@@ -755,6 +755,7 @@ text-decoration: none;
 .btn-instructor
 {
     text-align: center;
+    margin-bottom: 2%;
 
 }
 .btn-course102, .btn-course201

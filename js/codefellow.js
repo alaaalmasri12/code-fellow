@@ -29,6 +29,30 @@ document.getElementById("btn-course102").classList.remove("active");
 document.getElementById("btn-course201").classList.add("active");
 
 });
+/*
 var dropdown=btn=document.querySelector(".dropdown-btn").addEventListener("click",function(){
-    document.querySelector('.inner-navbar li').style.display= 'block';
+    document.querySelector('#inner-navbar li').style.display= 'block';
 });
+*/
+function show_hide()
+{
+    var click=document.querySelector("#inner-navbar li");
+    if(click.style.display === 'none')
+    {
+        click.style.display='block';
+    }
+    else
+    {
+        click.style.display="none";
+    }
+}
+//testonial javascript
+function onclickmenu()
+{
+    document.getElementById("menu").classList.toggle("change");
+    document.getElementById("nav").classList.toggle("change");
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+
+
+}
+

@@ -1,0 +1,307 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-events
+{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../images/hero.png");
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: #ffffff;
+}
+.event-title{
+    padding: 14% 36%;
+}
+.event-title h1{
+animation: moveleft 3s ease-in;
+text-align: center;
+    font-size: 47px;
+    font-weight: bold;
+}
+.event-title h3
+{
+animation: titledes 2s ease-in-out;
+}
+.event-title
+{
+    text-align: center;
+}
+.code-feloow-logo
+{
+position: relative
+}
+.code-feloow-logo img {
+    width: 4%;
+    animation: logomove 1s ease-in;
+    position: absolute;
+    left: 3%;
+    top: 34px;
+}
+.search-form
+{
+    background-color:#d03226;
+    padding: 25px 5%;
+}
+input
+{
+    display: inline-block;
+    width: 90%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#menu-bar
+{
+    width: 95%;
+    padding-top: 2%;
+}
+#menu
+{
+width: 35px;
+height: 30px;
+float: right;;
+cursor: pointer;
+}
+.bar
+{
+    transition: .3s ease-in;
+    height: 5px;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    background-color: black;
+}
+.nav
+{
+    margin-top: 50%;
+    display: none;
+}
+.nav li a:hover
+{
+    font-weight: bold;
+}
+
+.nav li a
+{
+    color:#ffffff;
+    text-decoration: none;
+}
+.nav
+{
+    padding: 0;
+    margin: 0;
+    transition: 0.3 ease;
+}
+.nav li 
+{
+    list-style-type: none;
+    padding: 16px 0;
+}
+.change .bar
+{
+    background-color: #ffffff;
+}
+.change #bar1
+{
+    transform: translateY(4px) rotateZ(-45deg)
+}
+.change #bar3
+{
+    transform: translateY(-6px) rotate(45deg);
+}
+.change #bar2
+{
+    opacity: 0;
+}
+
+
+
+#bar1
+{
+    transform: translateY(-4px);
+}
+#bar3
+{
+    transform: translateY(4px);
+
+}
+
+.menu-bg
+{
+    width: 0;
+    height: 0;
+    background: repeating-radial-gradient(circle, #8d1406, #8d14067c);
+    transition: .3s ease;
+}
+.change
+{
+    display: block;
+}
+
+.search-btn {
+    background-color: red;
+    border-radius: 2px;
+    padding: 5px;
+    text-align: center;
+    width: 5%;
+    top: 8px;
+    height: 38px;
+    right: 58px;
+    position: relative;
+    display: inline-block;
+}
+ion-icon
+{
+    padding-top: 13%;
+    font-size:20px;
+    color: #fff;
+}
+.event-news
+{
+    margin: 50px;
+}
+.event-box
+{
+    border: 1px solid gray;
+    border-left: none;
+    margin-bottom: 5%;
+}
+.event-box .row
+{
+    margin: 0 auto 0 0px !important;
+}
+.event-box .col
+{
+    margin: 0 !important;
+}
+.event-img
+{
+    line-height: 10px;
+
+}
+.event-img img
+{
+    width: 25%;
+    float: left;
+}
+
+.event-box-title  h1
+{
+    font-size: 25px;
+    color: #000000;
+    font-weight: 300;
+}
+.event-details
+{
+    position: relative;
+    left: 3%;
+}
+.event-day p, .event-time p, .event-address {
+    font-size: 17px;
+    font-weight: 100;
+}
+.event-time
+{
+    padding: 10px;
+}
+.event-description
+{
+    width: 73%;
+    padding-top: 3%;
+}
+.event-btn
+{
+    float: right;
+    width: 10%;
+    border: 1px solid #cc3524;
+    background-color: #cc3524;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+
+}
+.event-btn a
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+.event-btn:hover
+{
+    background-color: #55140c;
+}
+.cerate-event
+{
+    text-align: center;
+}
+.cerate-event a
+{
+    color: red;
+}
+
+
+@keyframes moveleft
+{
+    0%
+    {
+        opacity: 0;
+transform: translateX('-100px');
+    }
+
+    100%
+    {
+transform: translate(0);
+    }
+}
+@keyframes titledes
+{
+    0%
+    {
+        opacity: 0;
+transform: translateX('-100px');
+transform: rotate(180deg);
+    }
+
+    100%
+    {
+transform: translate(0);
+    }
+}
+
+
+
+
+
+
+
+
+@keyframes logomove
+{
+    0%
+    {
+opacity: 0;
+transform:translateX(-100px);
+    }
+    80%
+    {
+        transform: translateX(0px);
+
+    }
+    100%
+    {
+opacity: 1;
+transform: translate(0);
+
+    }
+}
